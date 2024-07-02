@@ -1,0 +1,33 @@
+body {
+  background-color: #000000;
+}
+
+.square {
+  height: 80px;
+  width: 80px;
+  background-color: white;
+  border: 0px transparent;
+  border-radius: 50%;
+  margin: 4px;
+  padding: 4px;
+  display: inline-block;
+  font-size: 48px;
+  color: black;
+}
+
+.reset {
+  padding: 8px;
+  margin-top: 20px;
+  width: 500px;
+}
+
+.reset:hover {
+  opacity: 0.8;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 264px;
+  margin: 20px auto;
+}
